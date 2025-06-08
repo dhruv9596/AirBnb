@@ -34,8 +34,8 @@ public class PricingUpdateService {
     private final InventoryRepository inventoryRepository;
     private final HotelMinPriceRepository hotelMinPriceRepository;
     private final PricingService pricingService;
-    //@Scheduled(cron = "0 0 * * * *")
-    @Scheduled(cron = "*/5 * * * * *")
+    @Scheduled(cron = "0 0 * * * *")
+    //@Scheduled(cron = "*/5 * * * * *")
     public void updatePrice(){
         int page = 0;
         int batchSize = 100;
