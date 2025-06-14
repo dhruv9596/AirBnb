@@ -4,7 +4,50 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="415bc09f-9200-44af-85e7-f282da91f5df" name="Changes" comment="" />
+    <list default="true" id="415bc09f-9200-44af-85e7-f282da91f5df" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/airBnBApp/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/airBnBApp/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/airBnBApp/src/main/java/com/projects/airBnBApp/controller/HotelController.java" beforeDir="false" afterPath="$PROJECT_DIR$/airBnBApp/src/main/java/com/projects/airBnBApp/controller/HotelController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/airBnBApp/src/main/java/com/projects/airBnBApp/controller/RoomAdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/airBnBApp/src/main/java/com/projects/airBnBApp/controller/RoomAdminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/airBnBApp/src/main/java/com/projects/airBnBApp/dto/UserDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/airBnBApp/src/main/java/com/projects/airBnBApp/dto/UserDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/airBnBApp/src/main/java/com/projects/airBnBApp/entity/Hotel.java" beforeDir="false" afterPath="$PROJECT_DIR$/airBnBApp/src/main/java/com/projects/airBnBApp/entity/Hotel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/airBnBApp/src/main/java/com/projects/airBnBApp/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/airBnBApp/src/main/java/com/projects/airBnBApp/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/airBnBApp/src/main/java/com/projects/airBnBApp/repository/BookingRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/airBnBApp/src/main/java/com/projects/airBnBApp/repository/BookingRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/airBnBApp/src/main/java/com/projects/airBnBApp/repository/HotelRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/airBnBApp/src/main/java/com/projects/airBnBApp/repository/HotelRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/airBnBApp/src/main/java/com/projects/airBnBApp/repository/InventoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/airBnBApp/src/main/java/com/projects/airBnBApp/repository/InventoryRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/airBnBApp/src/main/java/com/projects/airBnBApp/security/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/airBnBApp/src/main/java/com/projects/airBnBApp/security/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/airBnBApp/src/main/java/com/projects/airBnBApp/service/BookingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/airBnBApp/src/main/java/com/projects/airBnBApp/service/BookingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/airBnBApp/src/main/java/com/projects/airBnBApp/service/BookingServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/airBnBApp/src/main/java/com/projects/airBnBApp/service/BookingServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/airBnBApp/src/main/java/com/projects/airBnBApp/service/HotelService.java" beforeDir="false" afterPath="$PROJECT_DIR$/airBnBApp/src/main/java/com/projects/airBnBApp/service/HotelService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/airBnBApp/src/main/java/com/projects/airBnBApp/service/HotelServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/airBnBApp/src/main/java/com/projects/airBnBApp/service/HotelServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/airBnBApp/src/main/java/com/projects/airBnBApp/service/InventoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/airBnBApp/src/main/java/com/projects/airBnBApp/service/InventoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/airBnBApp/src/main/java/com/projects/airBnBApp/service/InventoryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/airBnBApp/src/main/java/com/projects/airBnBApp/service/InventoryServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/airBnBApp/src/main/java/com/projects/airBnBApp/service/RoomService.java" beforeDir="false" afterPath="$PROJECT_DIR$/airBnBApp/src/main/java/com/projects/airBnBApp/service/RoomService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/airBnBApp/src/main/java/com/projects/airBnBApp/service/RoomServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/airBnBApp/src/main/java/com/projects/airBnBApp/service/RoomServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/airBnBApp/src/main/java/com/projects/airBnBApp/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/airBnBApp/src/main/java/com/projects/airBnBApp/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/airBnBApp/src/main/java/com/projects/airBnBApp/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/airBnBApp/src/main/java/com/projects/airBnBApp/service/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/airBnBApp/target/classes/com/projects/airBnBApp/controller/HotelBookingController.class" beforeDir="false" afterPath="$PROJECT_DIR$/airBnBApp/target/classes/com/projects/airBnBApp/controller/HotelBookingController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/airBnBApp/target/classes/com/projects/airBnBApp/controller/HotelController.class" beforeDir="false" afterPath="$PROJECT_DIR$/airBnBApp/target/classes/com/projects/airBnBApp/controller/HotelController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/airBnBApp/target/classes/com/projects/airBnBApp/controller/RoomAdminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/airBnBApp/target/classes/com/projects/airBnBApp/controller/RoomAdminController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/airBnBApp/target/classes/com/projects/airBnBApp/dto/UserDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/airBnBApp/target/classes/com/projects/airBnBApp/dto/UserDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/airBnBApp/target/classes/com/projects/airBnBApp/entity/Hotel.class" beforeDir="false" afterPath="$PROJECT_DIR$/airBnBApp/target/classes/com/projects/airBnBApp/entity/Hotel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/airBnBApp/target/classes/com/projects/airBnBApp/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/airBnBApp/target/classes/com/projects/airBnBApp/entity/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/airBnBApp/target/classes/com/projects/airBnBApp/repository/BookingRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/airBnBApp/target/classes/com/projects/airBnBApp/repository/BookingRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/airBnBApp/target/classes/com/projects/airBnBApp/repository/HotelRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/airBnBApp/target/classes/com/projects/airBnBApp/repository/HotelRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/airBnBApp/target/classes/com/projects/airBnBApp/repository/InventoryRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/airBnBApp/target/classes/com/projects/airBnBApp/repository/InventoryRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/airBnBApp/target/classes/com/projects/airBnBApp/security/WebSecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/airBnBApp/target/classes/com/projects/airBnBApp/security/WebSecurityConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/airBnBApp/target/classes/com/projects/airBnBApp/service/BookingService.class" beforeDir="false" afterPath="$PROJECT_DIR$/airBnBApp/target/classes/com/projects/airBnBApp/service/BookingService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/airBnBApp/target/classes/com/projects/airBnBApp/service/BookingServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/airBnBApp/target/classes/com/projects/airBnBApp/service/BookingServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/airBnBApp/target/classes/com/projects/airBnBApp/service/HotelService.class" beforeDir="false" afterPath="$PROJECT_DIR$/airBnBApp/target/classes/com/projects/airBnBApp/service/HotelService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/airBnBApp/target/classes/com/projects/airBnBApp/service/HotelServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/airBnBApp/target/classes/com/projects/airBnBApp/service/HotelServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/airBnBApp/target/classes/com/projects/airBnBApp/service/InventoryService.class" beforeDir="false" afterPath="$PROJECT_DIR$/airBnBApp/target/classes/com/projects/airBnBApp/service/InventoryService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/airBnBApp/target/classes/com/projects/airBnBApp/service/InventoryServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/airBnBApp/target/classes/com/projects/airBnBApp/service/InventoryServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/airBnBApp/target/classes/com/projects/airBnBApp/service/RoomService.class" beforeDir="false" afterPath="$PROJECT_DIR$/airBnBApp/target/classes/com/projects/airBnBApp/service/RoomService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/airBnBApp/target/classes/com/projects/airBnBApp/service/RoomServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/airBnBApp/target/classes/com/projects/airBnBApp/service/RoomServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/airBnBApp/target/classes/com/projects/airBnBApp/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/airBnBApp/target/classes/com/projects/airBnBApp/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/airBnBApp/target/classes/com/projects/airBnBApp/service/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/airBnBApp/target/classes/com/projects/airBnBApp/service/UserServiceImpl.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,6 +94,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.AirBnBAppApplication.executor": "Run",
+    "Maven.airBnBApp [clean].executor": "Run",
+    "Maven.airBnBApp [install].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
@@ -90,6 +135,17 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -100,18 +156,26 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/airBnBApp/src/main/java/com/projects/airBnBApp/service/BookingServiceImpl.java</url>
-          <line>61</line>
+          <line>69</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/airBnBApp/src/main/java/com/projects/airBnBApp/service/BookingServiceImpl.java</url>
-          <line>50</line>
+          <line>58</line>
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/airBnBApp/src/main/java/com/projects/airBnBApp/service/BookingServiceImpl.java</url>
-          <line>91</line>
+          <line>99</line>
           <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/airBnBApp/src/main/java/com/projects/airBnBApp/service/BookingServiceImpl.java</url>
+          <line>308</line>
+          <properties>
+            <option name="lambda-ordinal" value="0" />
+          </properties>
+          <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

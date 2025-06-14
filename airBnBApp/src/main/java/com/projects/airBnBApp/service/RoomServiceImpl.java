@@ -1,5 +1,6 @@
 package com.projects.airBnBApp.service;
 
+import com.projects.airBnBApp.dto.HotelDto;
 import com.projects.airBnBApp.dto.RoomDto;
 import com.projects.airBnBApp.entity.Hotel;
 import com.projects.airBnBApp.entity.Room;
@@ -17,6 +18,8 @@ import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 import java.util.stream.Collectors;
+
+import static com.projects.airBnBApp.util.AppUtils.getCurrentUser;
 
 
 @Service
@@ -94,5 +97,31 @@ public class RoomServiceImpl implements RoomService{
 
         inventoryService.deleteAllInventories(room);
         roomRepository.deleteById(roomId);
+    }
+
+    @Override
+    @Transactional
+    public RoomDto updateRoomById(Long hotelId, Long roomId, RoomDto roomDto) {
+        log.info("Updating Room with Room Id : {}" + roomId );
+        Hotel hotel = hotelRepository
+                .findById(hotelId)
+                .orElseThrow( () -> new ResourceNotFoundException("Hotel Not Found with id : " + hotelId ));
+
+        User user = getCurrentUser();
+        if( !user.equals(hotel.getOwner())){
+            throw new UnAuthorizedException("This user doesn't own this Hotel with id : {} "+hotelId);
+        }
+
+        Room room = roomRepository.findById(roomId).orElseThrow(()->
+                new ResourceNotFoundException("Room Not Found with id : " + roomId ));
+
+        modelMapper.map( roomDto , room );
+
+        room.setId(roomId);
+        room = roomRepository.save(room);
+
+        //If price or inventory is updated, then update the inventory for this room
+
+        return modelMapper.map(room , RoomDto.class);
     }
 }

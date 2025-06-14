@@ -10,7 +10,6 @@ import com.projects.airBnBApp.exception.ResourceNotFoundException;
 import com.projects.airBnBApp.exception.UnAuthorizedException;
 import com.projects.airBnBApp.repository.HotelRepository;
 import com.projects.airBnBApp.repository.RoomRepository;
-import lombok.AllArgsConstructor;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.modelmapper.ModelMapper;
@@ -19,6 +18,9 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
+import java.util.stream.Collectors;
+
+import static com.projects.airBnBApp.util.AppUtils.getCurrentUser;
 
 @Service
 @Slf4j
@@ -132,6 +134,18 @@ public class HotelServiceImpl implements HotelService{
                 .map( (element) -> modelMapper.map(element , RoomDto.class)).toList();
 
         return new HotelInfoDto( modelMapper.map(hotel , HotelDto.class) , rooms);
+
+    }
+
+    @Override
+    public List<HotelDto> getAllHotels() {
+
+        User user = getCurrentUser();
+        log.info("Getting All Hotels for admin user with ID : {} : "+ user.getId());
+        List<Hotel> hotels = hotelRepository.findByOwner(user);
+        return hotels.stream()
+                .map((element) -> modelMapper.map(element, HotelDto.class))
+                .collect(Collectors.toList());
 
     }
 }

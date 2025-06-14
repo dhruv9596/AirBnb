@@ -1,6 +1,7 @@
 package com.projects.airBnBApp.entity;
 
 
+import com.projects.airBnBApp.entity.enums.Gender;
 import com.projects.airBnBApp.entity.enums.Role;
 import jakarta.persistence.*;
 import lombok.Getter;
@@ -9,6 +10,7 @@ import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
+import java.time.LocalDate;
 import java.util.Collection;
 import java.util.List;
 import java.util.Objects;
@@ -35,6 +37,11 @@ public class User implements UserDetails {
     private String password;
 
     private String name;
+
+    private LocalDate dateOfBirth;
+    @Enumerated(EnumType.STRING)
+    private Gender gender;
+
 
     //Using ORDINAL won't be able to know 1 point to USER or Managaer
     //Better to use String here
