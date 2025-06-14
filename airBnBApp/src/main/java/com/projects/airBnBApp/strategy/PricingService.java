@@ -4,6 +4,7 @@ import com.projects.airBnBApp.entity.Inventory;
 import org.springframework.stereotype.Service;
 
 import java.math.BigDecimal;
+import java.util.List;
 
 @Service
 public class PricingService {
@@ -25,5 +26,14 @@ public class PricingService {
 
     }
 
+    //Return the sum of Price of this inventory
+    public BigDecimal calculateTotalPrice(List<Inventory> inventoryList){
+
+        BigDecimal totalPrice = inventoryList.stream()
+                .map(this::calculateDynamicPricing)
+                .reduce( BigDecimal.ZERO , BigDecimal::add);
+
+        return totalPrice;
+    }
 
 }

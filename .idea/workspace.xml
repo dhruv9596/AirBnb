@@ -5,104 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="415bc09f-9200-44af-85e7-f282da91f5df" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/airBnBApp/HELP.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/airBnBApp/src/main/java/com/projects/airBnBApp/controller/AuthController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/airBnBApp/src/main/java/com/projects/airBnBApp/dto/LoginDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/airBnBApp/src/main/java/com/projects/airBnBApp/dto/LoginResponseDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/airBnBApp/src/main/java/com/projects/airBnBApp/dto/SignUpRequestDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/airBnBApp/src/main/java/com/projects/airBnBApp/exception/UnAuthorizedException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/airBnBApp/src/main/java/com/projects/airBnBApp/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/airBnBApp/src/main/java/com/projects/airBnBApp/security/AuthService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/airBnBApp/src/main/java/com/projects/airBnBApp/security/JWTAuthFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/airBnBApp/src/main/java/com/projects/airBnBApp/security/JWTService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/airBnBApp/src/main/java/com/projects/airBnBApp/security/WebSecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/airBnBApp/src/main/java/com/projects/airBnBApp/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/airBnBApp/src/main/java/com/projects/airBnBApp/service/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/airBnBApp/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/airBnBApp/target/classes/com/projects/airBnBApp/AirBnBAppApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/airBnBApp/target/classes/com/projects/airBnBApp/advice/ApiError$ApiErrorBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/airBnBApp/target/classes/com/projects/airBnBApp/advice/ApiError.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/airBnBApp/target/classes/com/projects/airBnBApp/advice/ApiResponse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/airBnBApp/target/classes/com/projects/airBnBApp/advice/GlobalExceptionHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/airBnBApp/target/classes/com/projects/airBnBApp/advice/GlobalResponseHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/airBnBApp/target/classes/com/projects/airBnBApp/config/MapperConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/airBnBApp/target/classes/com/projects/airBnBApp/controller/AuthController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/airBnBApp/target/classes/com/projects/airBnBApp/controller/HotelBookingController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/airBnBApp/target/classes/com/projects/airBnBApp/controller/HotelBrowseController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/airBnBApp/target/classes/com/projects/airBnBApp/controller/HotelController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/airBnBApp/target/classes/com/projects/airBnBApp/controller/RoomAdminController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/airBnBApp/target/classes/com/projects/airBnBApp/dto/BookingDto.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/airBnBApp/target/classes/com/projects/airBnBApp/dto/BookingRequest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/airBnBApp/target/classes/com/projects/airBnBApp/dto/GuestDto.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/airBnBApp/target/classes/com/projects/airBnBApp/dto/HotelDto.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/airBnBApp/target/classes/com/projects/airBnBApp/dto/HotelInfoDto.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/airBnBApp/target/classes/com/projects/airBnBApp/dto/HotelPriceDto.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/airBnBApp/target/classes/com/projects/airBnBApp/dto/HotelSearchRequest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/airBnBApp/target/classes/com/projects/airBnBApp/dto/LoginDto.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/airBnBApp/target/classes/com/projects/airBnBApp/dto/LoginResponseDto.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/airBnBApp/target/classes/com/projects/airBnBApp/dto/PaymentDto.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/airBnBApp/target/classes/com/projects/airBnBApp/dto/RoomDto.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/airBnBApp/target/classes/com/projects/airBnBApp/dto/SignUpRequestDto.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/airBnBApp/target/classes/com/projects/airBnBApp/dto/UserDto.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/airBnBApp/target/classes/com/projects/airBnBApp/entity/Booking$BookingBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/airBnBApp/target/classes/com/projects/airBnBApp/entity/Booking.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/airBnBApp/target/classes/com/projects/airBnBApp/entity/Guest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/airBnBApp/target/classes/com/projects/airBnBApp/entity/Hotel.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/airBnBApp/target/classes/com/projects/airBnBApp/entity/HotelContactInfo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/airBnBApp/target/classes/com/projects/airBnBApp/entity/HotelMinPrice.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/airBnBApp/target/classes/com/projects/airBnBApp/entity/Inventory$InventoryBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/airBnBApp/target/classes/com/projects/airBnBApp/entity/Inventory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/airBnBApp/target/classes/com/projects/airBnBApp/entity/Payment.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/airBnBApp/target/classes/com/projects/airBnBApp/entity/Room.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/airBnBApp/target/classes/com/projects/airBnBApp/entity/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/airBnBApp/target/classes/com/projects/airBnBApp/entity/enums/BookingStatus.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/airBnBApp/target/classes/com/projects/airBnBApp/entity/enums/Gender.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/airBnBApp/target/classes/com/projects/airBnBApp/entity/enums/PaymentStatus.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/airBnBApp/target/classes/com/projects/airBnBApp/entity/enums/Role.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/airBnBApp/target/classes/com/projects/airBnBApp/exception/ResourceNotFoundException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/airBnBApp/target/classes/com/projects/airBnBApp/exception/UnAuthorizedException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/airBnBApp/target/classes/com/projects/airBnBApp/repository/BookingRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/airBnBApp/target/classes/com/projects/airBnBApp/repository/GuestRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/airBnBApp/target/classes/com/projects/airBnBApp/repository/HotelMinPriceRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/airBnBApp/target/classes/com/projects/airBnBApp/repository/HotelRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/airBnBApp/target/classes/com/projects/airBnBApp/repository/InventoryRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/airBnBApp/target/classes/com/projects/airBnBApp/repository/RoomRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/airBnBApp/target/classes/com/projects/airBnBApp/repository/UserRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/airBnBApp/target/classes/com/projects/airBnBApp/security/AuthService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/airBnBApp/target/classes/com/projects/airBnBApp/security/JWTAuthFilter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/airBnBApp/target/classes/com/projects/airBnBApp/security/JWTService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/airBnBApp/target/classes/com/projects/airBnBApp/security/WebSecurityConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/airBnBApp/target/classes/com/projects/airBnBApp/service/BookingService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/airBnBApp/target/classes/com/projects/airBnBApp/service/BookingServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/airBnBApp/target/classes/com/projects/airBnBApp/service/HotelService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/airBnBApp/target/classes/com/projects/airBnBApp/service/HotelServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/airBnBApp/target/classes/com/projects/airBnBApp/service/InventoryService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/airBnBApp/target/classes/com/projects/airBnBApp/service/InventoryServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/airBnBApp/target/classes/com/projects/airBnBApp/service/PricingUpdateService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/airBnBApp/target/classes/com/projects/airBnBApp/service/RoomService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/airBnBApp/target/classes/com/projects/airBnBApp/service/RoomServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/airBnBApp/target/classes/com/projects/airBnBApp/service/UserService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/airBnBApp/target/classes/com/projects/airBnBApp/service/UserServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/airBnBApp/target/classes/com/projects/airBnBApp/strategy/BasePricingStrategy.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/airBnBApp/target/classes/com/projects/airBnBApp/strategy/HolidaysPricingStrategy.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/airBnBApp/target/classes/com/projects/airBnBApp/strategy/OccupancyPricingStrategy.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/airBnBApp/target/classes/com/projects/airBnBApp/strategy/PricingService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/airBnBApp/target/classes/com/projects/airBnBApp/strategy/PricingStrategy.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/airBnBApp/target/classes/com/projects/airBnBApp/strategy/SurgePricingStrategy.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/airBnBApp/target/classes/com/projects/airBnBApp/strategy/UrgencyPricingStrategy.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jpa.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jpa.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/airBnBApp/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/airBnBApp/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/airBnBApp/src/main/java/com/projects/airBnBApp/advice/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/airBnBApp/src/main/java/com/projects/airBnBApp/advice/GlobalExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/airBnBApp/src/main/java/com/projects/airBnBApp/dto/UserDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/airBnBApp/src/main/java/com/projects/airBnBApp/dto/UserDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/airBnBApp/src/main/java/com/projects/airBnBApp/entity/Hotel.java" beforeDir="false" afterPath="$PROJECT_DIR$/airBnBApp/src/main/java/com/projects/airBnBApp/entity/Hotel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/airBnBApp/src/main/java/com/projects/airBnBApp/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/airBnBApp/src/main/java/com/projects/airBnBApp/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/airBnBApp/src/main/java/com/projects/airBnBApp/controller/HotelBookingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/airBnBApp/src/main/java/com/projects/airBnBApp/controller/HotelBookingController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/airBnBApp/src/main/java/com/projects/airBnBApp/entity/Booking.java" beforeDir="false" afterPath="$PROJECT_DIR$/airBnBApp/src/main/java/com/projects/airBnBApp/entity/Booking.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/airBnBApp/src/main/java/com/projects/airBnBApp/entity/Payment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/airBnBApp/src/main/java/com/projects/airBnBApp/repository/BookingRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/airBnBApp/src/main/java/com/projects/airBnBApp/repository/BookingRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/airBnBApp/src/main/java/com/projects/airBnBApp/repository/InventoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/airBnBApp/src/main/java/com/projects/airBnBApp/repository/InventoryRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/airBnBApp/src/main/java/com/projects/airBnBApp/service/BookingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/airBnBApp/src/main/java/com/projects/airBnBApp/service/BookingService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/airBnBApp/src/main/java/com/projects/airBnBApp/service/BookingServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/airBnBApp/src/main/java/com/projects/airBnBApp/service/BookingServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/airBnBApp/src/main/java/com/projects/airBnBApp/service/HotelServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/airBnBApp/src/main/java/com/projects/airBnBApp/service/HotelServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/airBnBApp/src/main/java/com/projects/airBnBApp/service/PricingUpdateService.java" beforeDir="false" afterPath="$PROJECT_DIR$/airBnBApp/src/main/java/com/projects/airBnBApp/service/PricingUpdateService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/airBnBApp/src/main/java/com/projects/airBnBApp/service/RoomServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/airBnBApp/src/main/java/com/projects/airBnBApp/service/RoomServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/airBnBApp/src/main/java/com/projects/airBnBApp/strategy/PricingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/airBnBApp/src/main/java/com/projects/airBnBApp/strategy/PricingService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/airBnBApp/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/airBnBApp/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/airBnBApp/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/airBnBApp/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/airBnBApp/target/classes/com/projects/airBnBApp/controller/HotelBookingController.class" beforeDir="false" afterPath="$PROJECT_DIR$/airBnBApp/target/classes/com/projects/airBnBApp/controller/HotelBookingController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/airBnBApp/target/classes/com/projects/airBnBApp/entity/Booking$BookingBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/airBnBApp/target/classes/com/projects/airBnBApp/entity/Booking$BookingBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/airBnBApp/target/classes/com/projects/airBnBApp/entity/Booking.class" beforeDir="false" afterPath="$PROJECT_DIR$/airBnBApp/target/classes/com/projects/airBnBApp/entity/Booking.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/airBnBApp/target/classes/com/projects/airBnBApp/entity/Payment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/airBnBApp/target/classes/com/projects/airBnBApp/service/BookingService.class" beforeDir="false" afterPath="$PROJECT_DIR$/airBnBApp/target/classes/com/projects/airBnBApp/service/BookingService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/airBnBApp/target/classes/com/projects/airBnBApp/service/BookingServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/airBnBApp/target/classes/com/projects/airBnBApp/service/BookingServiceImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,6 +72,7 @@
   &quot;keyToString&quot;: {
     &quot;Application.AirBnBAppApplication.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;D:/Dhruv-PC/Project/AirBnB/airBnBApp&quot;,
@@ -198,22 +120,17 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/airBnBApp/src/main/java/com/projects/airBnBApp/service/BookingServiceImpl.java</url>
-          <line>48</line>
+          <line>61</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/airBnBApp/src/main/java/com/projects/airBnBApp/service/BookingServiceImpl.java</url>
-          <line>59</line>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/airBnBApp/src/main/java/com/projects/airBnBApp/service/BookingServiceImpl.java</url>
-          <line>37</line>
+          <line>50</line>
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/airBnBApp/src/main/java/com/projects/airBnBApp/service/BookingServiceImpl.java</url>
-          <line>79</line>
+          <line>91</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
