@@ -5,25 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="415bc09f-9200-44af-85e7-f282da91f5df" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/airBnBApp/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/airBnBApp/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/airBnBApp/src/main/java/com/projects/airBnBApp/controller/HotelBookingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/airBnBApp/src/main/java/com/projects/airBnBApp/controller/HotelBookingController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/airBnBApp/src/main/java/com/projects/airBnBApp/entity/Booking.java" beforeDir="false" afterPath="$PROJECT_DIR$/airBnBApp/src/main/java/com/projects/airBnBApp/entity/Booking.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/airBnBApp/src/main/java/com/projects/airBnBApp/entity/Payment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/airBnBApp/src/main/java/com/projects/airBnBApp/repository/BookingRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/airBnBApp/src/main/java/com/projects/airBnBApp/repository/BookingRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/airBnBApp/src/main/java/com/projects/airBnBApp/repository/InventoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/airBnBApp/src/main/java/com/projects/airBnBApp/repository/InventoryRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/airBnBApp/src/main/java/com/projects/airBnBApp/service/BookingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/airBnBApp/src/main/java/com/projects/airBnBApp/service/BookingService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/airBnBApp/src/main/java/com/projects/airBnBApp/service/BookingServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/airBnBApp/src/main/java/com/projects/airBnBApp/service/BookingServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/airBnBApp/src/main/java/com/projects/airBnBApp/strategy/PricingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/airBnBApp/src/main/java/com/projects/airBnBApp/strategy/PricingService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/airBnBApp/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/airBnBApp/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/airBnBApp/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/airBnBApp/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/airBnBApp/target/classes/com/projects/airBnBApp/controller/HotelBookingController.class" beforeDir="false" afterPath="$PROJECT_DIR$/airBnBApp/target/classes/com/projects/airBnBApp/controller/HotelBookingController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/airBnBApp/target/classes/com/projects/airBnBApp/entity/Booking$BookingBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/airBnBApp/target/classes/com/projects/airBnBApp/entity/Booking$BookingBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/airBnBApp/target/classes/com/projects/airBnBApp/entity/Booking.class" beforeDir="false" afterPath="$PROJECT_DIR$/airBnBApp/target/classes/com/projects/airBnBApp/entity/Booking.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/airBnBApp/target/classes/com/projects/airBnBApp/entity/Payment.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/airBnBApp/target/classes/com/projects/airBnBApp/service/BookingService.class" beforeDir="false" afterPath="$PROJECT_DIR$/airBnBApp/target/classes/com/projects/airBnBApp/service/BookingService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/airBnBApp/target/classes/com/projects/airBnBApp/service/BookingServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/airBnBApp/target/classes/com/projects/airBnBApp/service/BookingServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/airBnBApp/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/airBnBApp/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/airBnBApp/src/main/resources/application.properties" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,17 +52,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.AirBnBAppApplication.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Dhruv-PC/Project/AirBnB/airBnBApp&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AirBnBAppApplication.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "payment-api",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Dhruv-PC/Project/AirBnB/airBnBApp",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="AirBnBAppApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.projects.airBnBApp.AirBnBAppApplication" />
